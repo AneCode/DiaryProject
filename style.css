@@ -1,0 +1,35 @@
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+.form-control{
+	width:70%;
+	margin: auto; 
+}
+#my{
+	width:70%;
+	margin: auto; 
+}
+@media only screen and (min-width: 599px) {
+	 .form-control{
+		width:35%;
+		margin: auto; 
+	}
+	#my{
+	width:35%;
+	margin: auto; 
+  }
+}
+@media screen and (min-device-width: 599px) and (max-device-width: 1000px) {
+	 .form-control{
+		width:324px;
+		margin: auto; 
+	}
+#my{
+	width:324px;
+	margin: auto; 
+   }
+}
